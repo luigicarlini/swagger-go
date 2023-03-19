@@ -35,6 +35,7 @@ DEFAULT_GOAL := swagger
 
 install_swagger:
 	@ this is not working: go get -u github.com/go-swagger/go-swagger/cmd/swagger
+	
 	go install github.com/go-swagger/go-swagger/cmd/swagger@latest
 
 swagger:
